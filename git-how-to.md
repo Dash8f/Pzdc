@@ -1,7 +1,7 @@
 [Ссылка на гитхаб](https://github.com/Dash8f)
 * Как создать ssh ключ
     * Открыть Терминал. Вставить в него следующую команду:
-    *ssh-keygen -t ed25519 -C "osalesha@gmail.com"*
+    *ssh-keygen -t ed25519 -C "kir.glushnev@gmail.com"*
     * Три раза тыкнуть Enter, чтобы не создавать пароль для ключа
     * Добавить публичный ключ в свой аккаунт на GitHub. Для этого скопировать файл с расширением pub на ГитХаб
     * Добавить приватный ключ в ssh-agent. Написать *eval "$(ssh-agent -s)"*, затем *ssh-add ~/.ssh/id_ed25519*, затем *ssh -T git@github.com*
